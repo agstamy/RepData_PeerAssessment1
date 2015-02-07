@@ -150,7 +150,7 @@ i_md <- median(i_total_steps_per_day$Total_Steps)
 Imputed dataset median **1.0766 &times; 10<sup>4</sup>** is different than the original dataset with no NAs mean **10765**  
 
 c. Differences between the total number of steps between the datasets  
-Imputed Dataset
+Imputed dataset total number of steps
 
 ```r
 sum(i_total_steps_per_day$Total_Steps)
@@ -159,7 +159,7 @@ sum(i_total_steps_per_day$Total_Steps)
 ```
 ## [1] 656738
 ```
-Original ommiting NAs dataset
+Original dataset(ommiting NAs) total number of steps
 
 ```r
 sum(total_steps_per_day$Total_Steps)

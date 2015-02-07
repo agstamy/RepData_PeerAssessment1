@@ -124,11 +124,11 @@ i_md <- median(i_total_steps_per_day$Total_Steps)
 Imputed dataset median **`r i_md`** is different than the original dataset with no NAs mean **`r md`**  
 
 c. Differences between the total number of steps between the datasets  
-Imputed Dataset
+Imputed dataset total number of steps
 ```{r i_comptotalsteps}
 sum(i_total_steps_per_day$Total_Steps)
 ```
-Original ommiting NAs dataset
+Original dataset(ommiting NAs) total number of steps
 ```{r comptotalsteps}
 sum(total_steps_per_day$Total_Steps)
 ```
